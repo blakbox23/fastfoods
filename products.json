@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "spiced chips",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "./images/pexelfood1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "chips and samosa",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "./images/food2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "chips with pork and kachumbari",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./images/food1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "coctail fruit juice",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "./images/fruitjuicesmall.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "plain fruit juice",
+        "price": 50,
+        "image": { "fields": { "file": { "url": "./images/fruitjuice.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "chicken nuggets",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "./images/chicken1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "sausage",
+        "price": 45,
+        "image": { "fields": { "file": { "url": "./images/sausages1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "full chicken",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "./images/chicken2.jpg" } } }
+      }
+    }
+  ]
+}
