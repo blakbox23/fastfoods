@@ -79,6 +79,9 @@ body {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 3rem;
+  animation: zoomIn;
+  animation-duration: 4.5s;
+  animation-delay: 2s;
 }
 .banner-btn {
   padding: 1rem 3rem;
@@ -90,6 +93,9 @@ body {
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
+  animation: fadeInLeft;
+  animation-duration: 4s;
+  animation-delay: 2s;
 }
 .banner-btn:hover {
   background: transparent;
