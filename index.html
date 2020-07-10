@@ -56,7 +56,7 @@
     <header class = "hero">
         <div class="banner">
             <h1 class="banner-title ">Peter Pan Fries</h1>
-            <a href="#products" class="banner-btn">Order</a>
+            <a href="#products" class="banner-btn" id="banner-btn">Order</a>
 
         </div>
     </header>
@@ -322,14 +322,23 @@
     
     <Script src="app.js"></Script>
     <script src="js/wow.min.js"></script>
-
-
-
+                
     <script>
         setTimeout(function(){        
      $('.demo').delay(150).fadeOut('slow'); 
  }, 2500);
      </script> 
+     <script>
+         $('#banner-btn').on('click',function(){
+    const products = $('#products').position().top;
+    $('html, body').animate(
+        {
+            scrollTop: products
+        },
+        1000
+    );
+});
+     </script>
 
 </body>
 </html>
